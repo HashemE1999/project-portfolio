@@ -7,36 +7,38 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function Header() {
   return (
     <>
-      {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+      {/* {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => ( */}
+      {/* {['md'].map((expand) => ( */}
+        <Navbar key="md" expand="xl" className="bg-body-tertiary mb-3 nav-bar">
           <Container fluid>
             <Navbar.Brand href="/">Hashem Elmaghrabi</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
             <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              id={`offcanvasNavbar-expand-md`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-md`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
                   Offcanvas
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/projects">Projects</Nav.Link>
+                  <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                   <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="/about-me">About Me</Nav.Link>
                   <NavDropdown
                     title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    id={`offcanvasNavbarDropdown-expand-md`}
                   >
                     <NavDropdown.Item href="/resume">Resume</NavDropdown.Item>
                     <NavDropdown.Item href="https://github.com/HashemE1999">
-                      GitHub Profile
+                      GitHub
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      LinkedIn Profile
+                    <NavDropdown.Item href="https://www.linkedin.com/in/hashem-elmaghrabi-833937307/">
+                      LinkedIn
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
@@ -44,7 +46,7 @@ function Header() {
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
-      ))}
+      {/* ))} */}
     </>
   );
 }
