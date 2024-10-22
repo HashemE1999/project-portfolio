@@ -1,8 +1,36 @@
-# React + Vite
+# React Portfolio
+  [License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Description
+  A portfolio created for employers using React that showcases information about myself, my proficiencies, my recent projects, my contact information, and my resume.
 
-Currently, two official plugins are available:
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - [Contributions](#contributions)
+  - [Testing](#testing)
+  - [Contacts](#contacts)
+
+  ## Installation
+  N/A
+
+  ## Usage
+  To show employers my skills in using React and several other languages.
+
+    ## License
+This project is licensed under the MIT license.
+
+  ## Contributions
+  This repo is open-source! If you have suggestions as to how the page can be improved, please contact me the email below and run it by me first!
+
+  ## Testing
+  N/A
+
+  ## Contacts
+  For questions and/or business inquiries, please reach out to me at:
+  - GitHub: [HashemE1999](https://github.com/HashemE1999)
+  - Email: [hashem_elmaghrabi@yahoo.com](mailto:hashem_elmaghrabi@yahoo.com)
